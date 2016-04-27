@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="0.5">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/findButton"
+                    android:background="@drawable/findButtonSelector"
+                    android:text="@string/findText"
+                    android:textSize="18sp"
+                    android:gravity="center|bottom"
+                    android:singleLine="false"
+                    android:paddingBottom="10dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lfind"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/statisticsButton"
+                    android:background="@drawable/statisticsButtonSelector"
+                    android:text="@string/statisticsText"
+                    android:textSize="18sp"
+                    android:gravity="center|bottom"
+                    android:singleLine="false"
+                    android:paddingBottom="10dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lstatistics"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="0.5">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/historyButton"
+                    android:background="@drawable/historyButtonSelector"
+                    android:text="@string/historyText"
+                    android:textSize="18sp"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lhistory"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/aboutButton"
+                    android:background="@drawable/aboutButtonSelector"
+                    android:text="@string/aboutText"
+                    android:textSize="18sp"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/labout"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

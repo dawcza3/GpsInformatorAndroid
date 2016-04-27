@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="green" type="color">#6600ff00</item>
+  <item name="greenPressed" type="color">#AA00ff00</item>
+  <item name="greenFocused" type="color">#FF00ff00</item>
+  
+  <item name="blue" type="color">#660000ff</item>
+  <item name="bluePressed" type="color">#AA0000ff</item>
+  <item name="blueFocused" type="color">#FF0000ff</item>
+
+  <item name="red" type="color">#66FF0000</item>
+  <item name="redPressed" type="color">#AAFF0000</item>
+  <item name="redFocused" type="color">#FFFF0000</item>
+  
+  <item name="orange" type="color">#66FFBB33</item>
+  <item name="orangePressed" type="color">#AAFFBB33</item>
+  <item name="orangeFocused" type="color">#FFFFBB33</item>
+
+  <string name="findText">Gdzie jestem?</string>
+  <string name="statisticsText">Statystyki</string>
+  <string name="historyText">Historia</string>
+  <string name="aboutText">O aplikacji</string>
+  <string name="beginText">Gps Informator</string>
+  <string name="ApplicationName">Gps Informator</string>
+
+  <string name="WaitForGpsInfo">
+    "Proszę zaczekać, ustalam obecnę położenie"
+  </string>
+
+  <string name="DistInfo">
+    Łączna ilość przebytych kilometrów\n
+  </string>
+
+  <string name="TotalArea">
+    Odwiedzone województwa\n
+  </string>
+  
+  <string name="AboutInfo">
+    Projekt zaliczeniowy z zajęć Xamarin\n
+    Aplikacja wyświetlająca informacje na temat miejsca w którym się znajdujemy\n
+    Dawid Czaja\n
+    UMK Toruń\n
+    Wersja testowa\n
+  </string>
+</resources>
